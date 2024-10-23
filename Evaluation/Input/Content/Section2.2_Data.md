@@ -1,40 +1,38 @@
-### In vitro / physico-chemical Data <a id="invitro-and-physico-chemical-data"></a>
+### 2.2.1 In vitro and physicochemical data
 
-A literature search was performed to collect available information on physicochemical properties of dapagliflozin. The obtained information from literature is summarized in the table below. 
+A literature search was performed to collect available information on physicochemical properties of Coproporphyrin-I. The obtained information from literature is summarized in the table below, and is used for model building.
 
-| **Parameter**   | **Unit** | **Value** | Source                                     | **Description**                                 |
-| :-------------- | -------- | --------- | ------------------------------------------ | ----------------------------------------------- |
-| MW              | g/mol    |           | [Dummy YEAR](#main-references)               | Molecular weight                                |
-| pK<sub>a</sub>  |          |           | [DrugBank DB06292](#main-references)         | Acid dissociation constant                      |
-| Solubility (pH) |          |           | [Dummy YEAR](#main-references)               | Aqueous Solubility, FaSSIF, ...                 |
-| logP            |          |           | [Dummy YEAR](#main-references) (experimental) | Partition coefficient between octanol and water |
-| fu              | %        |           | [Dummy YEAR](#main-references)                | Fraction unbound in plasma                      |
-| B/P ratio       |          |           | [Dummy YEAR](#main-references)                | Blood to plasma ratio                           |
-| ...             |          |           |                                            | ....                                            |
+| **Parameter**           | **Unit** | **Value** | Source                               | **Description**                                              |
+| :---------------------- | -------- | --------- | ------------------------------------ | ------------------------------------------------------------ |
+| MW                      | g/mol    | 654.71    | [Yoshikado 2018](#5-references)        | Molecular weight                                             |
+| pK<sub>a</sub> (acid)   |          | 3.56      | [Yoshikado 2018](#5-references)         | acid dissociation constant of conjugate acid                 |
+| pK<sub>a</sub> (base)   |          | 5.18      | [Yoshikado 2018](#5-references)         | acid dissociation constant of conjugate base                 |
+| Solubility (pH7.4)      | mg/mL    | 0.03     | [DrugBank](#5-references)              | Aqueous Solubility in pH 7.4                 |
+| logP                    |          | 2.53     | [Yoshikado 2018](#5-references)         | Partition coefficient between octanol and water              |
+| fu                      | %        | 0.66       | [Yoshikado 2018](#5-references)   | Fraction unbound in plasma                                   |
+| K<sub>m</sub> OATP1B1   | µmol/L   | 0.13    | [Bednarczy 2016](#5-references)            | OATP1B1 Michaelis-Menten constant                             |
+| K<sub>m</sub> BCRP      | µmol/L   | 7.7      | [Gilibili 2017](#5-references)| BCRP Michaelis-Menten                                    |
+| Synthesis rate        | nmol/h/kg  | 0.19     | [Mochizuki 2022](#5-references)          | Endogenous synthesis rate              |
+| Renal clearance           | L/h/kg | 0.04     | [Mochizuki 2022](#5-references)        | elimination rate via kidneys             |
 
-### Clinical Data  <a id="clinical-data"></a>
+### 2.2.2 Clinical data
 
-A literature search was performed to collect available clinical data on dapagliflozin in healthy adults.
+A literature search was performed to collect available clinical data on Coproporphyrin-I in adults. 
 
-#### Model Building <a id="model-building"></a>
+The following publications were found in adults for model building:
 
-The following studies were used for model building (training data):
+| Publication                   | Arm / Treatment / Information used for model building        |
+| :---------------------------- | :----------------------------------------------------------- |
+| [Mori 2020](#5-references)  | Baseline PK profiles in healthy subjects of Coproporphyrin-I|
+| [Takehara 2018](#5-references) | Baseline and DDI plasma PK profiles in healthy subjects of Coproporphyrin-I|
+| [Lai 2016](#5-references)   | Baseline and DDI plasma PK profiles in healthy subjects of Coproporphyrin-I|
+| [Zhang 2020](#5-references)   | Baseline and DDI plasma PK profiles in healthy subjects of Coproporphyrin-I|
 
-| Publication                 | Arm / Treatment / Information used for model building |
-| :-------------------------- | :---------------------------------------------------- |
-| [Dummy YEAR](#main-references) | Healthy Subjects with a single dose of X mg           |
-| ...                         | ...                                                   |
-| ...                         | ...                                                   |
-| ...                         | ...                                                   |
 
-#### Model Verification <a id="model-verification"></a>
+The following dosing scenarios were simulated and compared to respective data for model verification, see the OATP1B1/3-DDI qualification report for model performance:
 
-The following studies were used for model verification:
+| Scenario                                                     | Data reference                       |
+| ------------------------------------------------------------ | ------------------------------------ |
+| DDI with 150 mg, 300 mg and 600 mg rifampicin                    |[Mori 2020](#5-references)           |
 
-| Publication                 | Arm / Treatment / Information used for model building |
-| :-------------------------- | :---------------------------------------------------- |
-| [Dummy YEAR](#main-references) | Healthy Subjects with a single dose of Y mg           |
-| ...                         | ...                                                   |
-| ...                         | ...                                                   |
-| ...                         | ...                                                   |
 
