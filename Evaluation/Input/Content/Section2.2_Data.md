@@ -10,7 +10,7 @@ A literature search was performed to collect available information on physicoche
 | Solubility (pH7.4)      | mg/mL    | 0.03     | [DrugBank](#5-references)              | Aqueous Solubility in pH 7.4                 |
 | logP                    |          | 2.53     | [Yoshikado 2018](#5-references)         | Partition coefficient between octanol and water              |
 | fu                      | %        | 0.66       | [Yoshikado 2018](#5-references)   | Fraction unbound in plasma                                   |
-| K<sub>m</sub> OATP1B1   | µmol/L   | 0.13    | [Bednarczy 2016](#5-references)            | OATP1B1 Michaelis-Menten constant                             |
+| K<sub>m</sub> OATP1B1   | µmol/L   | 0.13    | [Bednarczyk 2016](#5-references)            | OATP1B1 Michaelis-Menten constant                             |
 | K<sub>m</sub> MRP2      | µmol/L   | 7.7      | [Gilibili 2017](#5-references)| MRP2 Michaelis-Menten                                    |
 | Synthesis rate        | nmol/h/kg  | 0.19     | [Mochizuki 2022](#5-references)          | Endogenous synthesis rate              |
 | Renal clearance           | L/h/kg | 0.04     | [Mochizuki 2022](#5-references)        | elimination rate via kidneys             |
